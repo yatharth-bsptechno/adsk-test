@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 interface SectionProfessionalInfoProps {
   onSubmit: (data: any) => void;
-  onNext: () => void;
+  onNext: (data: any) => void;
 }
 
 const SectionProfessionalInfo: React.FC<SectionProfessionalInfoProps> = ({

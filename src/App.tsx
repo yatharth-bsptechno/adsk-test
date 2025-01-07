@@ -29,7 +29,9 @@ const App: React.FC = () => {
         <SectionExperience onNext={handleNext} />
       )}
       {currentSection === "professionalInfo" && (
-        <SectionProfessionalInfo onSubmit={handleSubmit} />
+        <SectionProfessionalInfo onSubmit={handleSubmit} onNext={function (data: any): void {
+          throw new Error(data);
+        } }  />
       )}
     </div>
   );
