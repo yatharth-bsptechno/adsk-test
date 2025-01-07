@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import SectionWelcome from '../components/SectionWelcome';
 
 const meta: Meta<typeof SectionWelcome> = {
-  title: 'Sections/Welcome',
+  title: "Sections/SectionWelcome",
   component: SectionWelcome,
 };
 
